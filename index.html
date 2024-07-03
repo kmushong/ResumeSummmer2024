@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly Mushonga, Computer Science Major</title>
+    <meta name="description" content="I am a 22 year old Computer Science Major at Mongtgomery College, with a passion for website and graphic design">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        /* STRUCTURE */
+        #wrap {width: 100%;
+            max-width: 800px; 
+            background-color :#ddd;
+            margin:0 auto;} 
+            header, footer {background-color:#444; color:white;}
+            header, section, footer {padding:20px 60px;}
+            figure {margin:0;}
+                
+        /* FLOATS*/
+            .clearfix::after {
+            content:""; 
+            clear: both; 
+            display: table;
+            }
+            .fr300 {width:100%; max-width: 200px; float: right; margin-left:20px; margin-bottom:0px;}
+
+        /* IMAGES */
+        figure {margin:0;}
+        img {width:100%; max-width:300px; margin-bottom:0px;}
+
+        /* TABLE*/
+        table {text-align: left;} 
+        td, th {padding: 6px;}
+
+        /* FORM */
+        input, textarea, button {display:block; margin-bottom: 6px;}
+        input, textarea {width:100%; max-width:400px;}
+
+        /* TYPOGRAPHY */
+        html{
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+            }
+        h2 span {font-size:14px; font-style: italic;}
+        
+        /* NAV TYPE */
+                nav ul {padding-left:0;}
+                nav li {list-style:none; display:inline-block; 
+                margin-right:12px;}
+
+        /* LINKS */ 
+                a:link {color:#aaa; text-decoration:none;} 
+                a:visited {color:#aaa;}
+                a:hover {color:rgb(255, 0, 136);} 
+                a:focus {color:aqua;}
+                a:active {color:aqua;} 
+
+                section a:link {color:#666;} 
+                section a:visited {color:#666;} 
+                section a:hover {color:rgb(255, 0, 136)} 
+                section a:focus {color:rgb(255, 0, 136);}
+                section a:active {color:rgb(255, 0, 136);} 
+                
+                nav a:link {color:white; background-color:rgb(255, 0, 136); 
+                padding:6px; border-radius:3px; } 
+                nav a:visited {color:white; background-color:rgb(255, 0, 136);} 
+                nav a:hover {color:white; background-color:#777;} 
+                nav a:focus {color:white; background-color:#777;}
+                nav a:active {color:white; background-color:#777;}
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <main id="top">
+            <header class="clearfix">
+                <nav>
+                    <ul>
+                        <li><a href="#biography">Biography</a></li>
+                        <li><a href="#accomplishments">Accomplishments</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#software">Software</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <figure class="fr300">    
+                    <img src="images/e3nWlhBE.jpg" alt="Kelly Mushonga in a white shitr and brown blazer">
+                    </figure>     
+                <h1>Kelly Mushonga</h1>
+                <h2>Computer Science Major</h2>
+                <ul id="contact">
+                    <li><a href="mailto:kmushong@montgomerycollege.edu">kmushonga@montgomerycollege.edu</a></li>
+                    <li><a href="www.linkedin.com/in/kellynicolemushonga" target="_blank">www.linkedin.com/in/kellynicolemushonga</a></li>
+                    <li>Gaithersburg,MD</li>
+                </ul>
+
+            </header>
+            <section id="biography">
+                <h2>Biography <span><a href="#top">Top</a></span></h2>
+                <p>I am a Computer Science major at Montgomery College, recognized on the Dean’s List and a member of Phi Theta Kappa. I excel in social media marketing, content creation, and campaign management, with years of experience</p>
+
+            </section>
+            <section id="accomplishments">
+                <h2>Accomplishments <span><a href="#top">Top</a></span></h2>
+                <h4> It’s Chic by Chantele</h4>
+                <h4>Personal Assistant/ Social Media Manager<time datetime="2024">2024</time>-Present</h4>
+                    <ul>
+                    <li>Created and implemented a successful social media campaign, resulting in a 25% increase in website traffic, 18% increase in online sales, and 15% rise in brand mentions.</li>
+                    <li>Developed and scheduled engaging email campaigns.</li>
+                    <li>Sourced and collaborated with freelance models for content creation.</li>
+                    <li>Directed, Filmed and Edited social media content.</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education <span><a href="#top">Top</a></span></h2>
+                <h3>Bachelorsin Computer Science</h3>
+                <h4>Montgomery College, <time datetime="2022">2022</time>-Present</h4>
+
+            </section>
+            <section id="projects">
+                <h2>Projects <span><a href="#top">Top</a></span></h2>
+                <table>
+                    <thead>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Date</th>
+                    </thead> 
+                    <tbody>
+                        <td>Project 2.1 Basic</td>
+                        <td>Learning The Basics</td>
+                        <td><time datetime="06-02-2024">06/02/2024 </time></td>
+                    </tbody>
+                    <tbody>
+                        <td>Project 2.2 Hyperlinks</td>
+                        <td>Learning How To Create Hyperlinks</td>
+                        <td><time datetime="06-09-2024">06/09/2024</time></td>
+                    </tbody>
+                    <tbody>
+                        <td>Project 3.1 Pick Wikipedia Site</td>
+                        <td>Learning To Create Wikipedia Pages</td>
+                        <td><time datetime="06-12-2024">06/12/2024 </time></td>
+                    </tbody>
+                    <tbody>
+                        <td>Project 2.9 CSS Structure</td>
+                        <td>Learning To Use CSS</td>
+                        <td><time datetime="06-02-2024">06/23/2024 </time></td>
+                    </tbody>
+                </table>
+
+            </section>
+            <section id="software">
+                <h2>Software Profeciency <span><a href="#top">Top</a></span></h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Software</th> 
+                            <th scope="col">Beginner</th> 
+                            <th scope="col">Beginner</th>
+                            <th scope="col">Intermediate</th>
+                            <th scope="col">Advanced</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adobe Illustrator</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;X</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Adobe Dreamweaver</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Adobe Photoshop</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;X</td>
+                        </tr>
+                        <tr>
+                            <td>Visual Studio</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;X</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Canva</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;X</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+            </section>
+            <section id="contact">
+    
+                <h2>Reply to this resume <span><a href="#top">Top</a></span></h2>
+                <form action="mailto:dnettle2@montgomerycollege.edu" method="post" enctype="text/ plain">
+                <input type="text" name="firstname" required autofocus placeholder="First Name*"> 
+                <input type="text" name="lastname" required placeholder="Last Name*">
+                <input type="email" name="email" required placeholder="Email*">
+                <textarea name="comment" cols="45"rows="4" placeholder="Comments"></textarea>
+                <button type="submit" value="submit">Submit</button>
+                <button type="reset" value="reset">Reset</button>
+                </form>
+              
+            </section>
+            <footer>
+                <p>©2024 All Rights Reserved</p>
+            </footer>
+
+
+        </main>
+
+    </div>
+</body>
+</html>
